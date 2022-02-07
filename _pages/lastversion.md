@@ -1,5 +1,6 @@
 ---
-permalink: /lastversion
+permalink: /lastversion/
 title: "About"
 ---
-1.23
+
+Version is @1.23@
