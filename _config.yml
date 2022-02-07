@@ -58,34 +58,31 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "alecvern"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Description here"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "/assets/images/bio-photo.jpg"
+    - label: "Unity"
+      icon: "fab fa-unity"
+      url: "https://assetstore.unity.com/"
+    - label: "Unreal (WiP)"
+      icon: "fab fa-umbraco"
+      url: "https://www.unrealengine.com/marketplace/en-US/store"
+    - label: "Twiter"
+      icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
 
 footer:
   links:
-    - label: "Twitter"
+    - label: "Unity"
+      icon: "fab fa-unity"
+      url: "https://assetstore.unity.com/"
+    - label: "Unreal (WiP)"
+      icon: "fab fa-umbraco"
+      url: "https://www.unrealengine.com/marketplace/en-US/store"
+    - label: "Twiter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
 
 defaults:
   # _posts
@@ -95,8 +92,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
+      read_time: false
+      comments: false
       share: true
       related: true
   # _pages
